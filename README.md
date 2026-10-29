@@ -51,4 +51,8 @@ Hourly weather comes from Environment and Climate Change Canada (ECCC), station 
 - Precipitation in those hours was set to 0.
 - A `weather_filled` column marks every estimated hour.
 
+<<<<<<< HEAD
 **Bug caught:** the first version of the `hour` format swapped month and day (`%d` and `%m`), which would have joined November weather to June trips. Inspecting the duplicate rows revealed it.
+=======
+**Bug caught:** the first version of the `hour` format swapped month and day (`%d` and `%m`), which would have joined November weather to June trips. Inspecting the duplicate rows revealed it.
+>>>>>>> ac5f4288208d87ac88d21ab55bcedc02229959f2
